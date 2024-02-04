@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CatBot Unit Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <img src="cute_cat_balloon-removebg-preview.png" height="160" width="140">
+</head>
+
+<body>
+  <div class="body-text">
+    <header>
+      <h1>Unit Converter</h1>
+      <p>What would you like to convert? (e.x., '5 meters to feet', or 'exit' to quit): </p>
+    </header>
+    <div class="input1">
+      <input type="text" spellcheck="false" id="info" placeholder="Enter text or number">
+      <div>
+        <button onclick="makeConversion()" id="submit" class="submit-button">
+          Convert</button>
+      </div>
+    </div>
+    <p class="back"></p>
+  </div>
+  <script src="script.js"></script>
+
+<div id="result" style="margin-top: 380px"></div>
+  
+<script src="calculator.js"></script>
+</body>
+
+</html>
